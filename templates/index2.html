@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+        <h1>
+            Welcome to Text Utils
+        </h1>
+        <form method="get" action="/analyze">
+            <textarea name="text" style="width: 480px; height: 85px;"></textarea>
+            <br>
+            <input type="checkbox" name="removepunctuation"> Remove Punctuation
+            <br>
+            <input type="checkbox" name="capitalize"> Capitalize
+            <br>
+            <input type="checkbox" name="removenewline"> Remove Newline
+            <br>
+            <input type="checkbox" name="removeextraspaces"> Remove Extra Spaces
+            <br>
+            <input type="checkbox" name="charcounter"> Character Counter
+            <br>
+            <button type="submit">Analyze</button>
+        </form>
+</body>
+</html>
